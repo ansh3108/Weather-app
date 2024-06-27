@@ -11,7 +11,7 @@
  var error=document.getElementById('error')
 
     async function checkWeather(city) {
-        let Upi_key='f27b269d54e4fa1e72993364a80fa8bd'
+        let Upi_key='ADD_YOUR_KEY_HERE'
         let repsponse= await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${Upi_key}&units=metric`);
         let data= await repsponse.json();
        
